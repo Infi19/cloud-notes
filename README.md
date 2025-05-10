@@ -37,8 +37,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/cloud-notes-app.git
-   cd cloud-notes-app
+   git clone https://github.com/Infi19/cloud-notes.git
+   cd cloud-notes
    ```
 
 2. **Create a Firebase project**
@@ -171,21 +171,11 @@ For production deployments, consider these enhanced security measures:
 - 🎨 Tailwind CSS
 - 🔄 Firebase Realtime Sync
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 👏 Acknowledgments
 
 - 🙏 Firebase team for the excellent documentation
 - 💡 Tailwind CSS for the beautiful styling utilities
 - 🌐 Open source community for inspiration
-
-## 📧 Contact
-
-For any questions or suggestions, please reach out to:
-- Your Name - youremail@example.com
-- Project Link: [https://github.com/yourusername/cloud-notes-app](https://github.com/yourusername/cloud-notes-app)
 
 ---
 
