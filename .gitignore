@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Dependency directories
+node_modules/
+
+# Generated config file
+# This file contains the actual API keys and should not be committed
+config.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build directories
+dist/
+build/
+
+# OS specific files
+.DS_Store
+Thumbs.db 

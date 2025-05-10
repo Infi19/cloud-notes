@@ -1,14 +1,14 @@
 // Firebase configuration
 const firebaseConfig = {
-    // Replace with your Firebase config
-    apiKey: "AIzaSyCI6Yexv_wpzkPj-JT7XWPn-f0u0JJy86c",
-    authDomain: "notes-app-decaf.firebaseapp.com",
-    databaseURL: "https://notes-app-decaf-default-rtdb.firebaseio.com",
-    projectId: "notes-app-decaf",
-    storageBucket: "notes-app-decaf.firebasestorage.app",
-    messagingSenderId: "628611472195",
-    appId: "1:628611472195:web:a5699df0db98ddd22a2df6",
-    measurementId: "G-X6PLT89HP9"
+    // Load configuration from environment variables
+    apiKey: process.env.FIREBASE_API_KEY,
+    authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+    databaseURL: process.env.FIREBASE_DATABASE_URL,
+    projectId: process.env.FIREBASE_PROJECT_ID,
+    storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.FIREBASE_APP_ID,
+    measurementId: process.env.FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
